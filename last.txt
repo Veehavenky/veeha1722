@@ -1,0 +1,8 @@
+FROM ubuntu:latest
+WORKDIR /app
+COPY . .
+EXPOSE 80
+RUN["echo"]
+expose 8080
+
+
